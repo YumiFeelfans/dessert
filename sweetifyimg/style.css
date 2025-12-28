@@ -1,0 +1,28 @@
+.food-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  padding: 10px;
+}
+
+.food-img {
+  width: 50%;
+  height: 220px;      /* ความสูงรูปเท่ากัน */
+  object-fit: cover;
+}
+
+.food-card h3 {
+  margin: 12px 0;
+}
+
+.btn-area {
+  margin-top: auto;  /* ดันปุ่มลงล่าง */
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+
